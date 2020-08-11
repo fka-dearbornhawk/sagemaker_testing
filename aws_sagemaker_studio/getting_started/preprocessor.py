@@ -4,6 +4,7 @@ import random
 # sample preprocess_handler (to be implemented by customer)
 # This is a trivial example, where we demonstrate an echo preprocessor for json data
 # for others though, we are generating random data (real customers would not do that obviously/hopefully)
+# add a comment for git
 def preprocess_handler(inference_record):
     event_data = inference_record.event_data
     input_data = {}
